@@ -1,0 +1,39 @@
+#button{
+    width: 100px;
+    height: 200px;
+    background-color: green;
+}
+
+#rectangle {
+    width: 100px;
+    height: 100px;
+    background-color: blue;
+
+    margin-top: 50px;
+}
+
+.haut{
+    transform: translateY(-100px);
+}
+
+.retour{
+    transform: translateY(0);
+}
+
+#rectangle2{
+    width: 75px;
+    height: 75px;
+    background-color: blue; 
+}
+
+.ex5{
+    width: 75px;
+    height: 75px;
+    background-color: blue; 
+}
+
+.content_ex5{
+    display: flex;
+    justify-content: space-around;
+    align-content: flex-start;
+}
